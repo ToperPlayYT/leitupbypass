@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "LeitUP Bypass",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "matches": [
+                "*://leitup.com/*"
+            ],
+            "js": [
+                "bypass.js"
+            ]
+        }
+    ]
+}
